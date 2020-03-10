@@ -2,7 +2,7 @@
 
 ![](https://res.cloudinary.com/doiz6iue3/image/upload/v1583865095/edirect_kqnwdj.svg) ![image](https://res.cloudinary.com/doiz6iue3/image/upload/v1583866739/nodejs_fl0jix.png)
 
-# [Arquitetura](https://drive.google.com/file/d/1osDHl3E9FPtqR4rdQTK0afOEIAPKMg7u/view?usp=sharing)
+# [Architecture](https://drive.google.com/file/d/1osDHl3E9FPtqR4rdQTK0afOEIAPKMg7u/view?usp=sharing)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
