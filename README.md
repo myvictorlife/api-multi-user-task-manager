@@ -19,13 +19,13 @@ The application should include the following features:
 For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
 
 # Plugins
-1. bcryptjs
-2. body-parser
-3. cors
-4. express
-5. jsonwebtoken
-6. mongoose
-7. mongodb
+1. bcryptjs - Optimized bcrypt in JavaScript with zero dependencies.
+2. body-parser -  Node.js body parsing middleware.
+3. cors - CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+4. express - Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications
+5. jsonwebtoken - JSON Web Token (JWT) is an open standard that defines a compact and self-contained way of securely transmitting information between parties as a JSON object.
+6. mongoose - Elegant MongoDB object modeling for Node.js
+7. mongodb - Document database with the scalability and flexibility that you want with the querying and indexing that you need.
 
 ### Node
 - #### Node installation on Windows
