@@ -16,6 +16,15 @@ The application should include the following features:
 
 For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
 
+# Plugins
+1. bcryptjs
+2. body-parser
+3. cors
+4. express
+5. jsonwebtoken
+6. mongoose
+7. mongodb
+
 ### Node
 - #### Node installation on Windows
 
