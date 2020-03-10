@@ -40,20 +40,24 @@ router.get('/', async (req, res) => {
 
 router.post('/', async (req, res) => {
     try {
-        const { title, description, tasks } = req.body 
+        const { title, description, status, tasks } = req.body 
 
-        const project = await Project.create({ title, description, user: req.userId})
+        const project = await Project.create({ title, description, status, user: req.userId})
 
-        await Promise.all(
-            tasks.map(
-                async task => {
-                    console.log(task)
-                    const projectTask = new Task({ ...task, project: project._id })
-                    await projectTask.save();
-                    project.tasks.push(projectTask)
-                }
-            )
-        );
+        if(tasks){
+            await Promise.all(
+                tasks.map(
+                    async task => {
+                        console.log(task)
+                        const projectTask = new Task({ ...task, project: project._id })
+                        await projectTask.save();
+                        project.tasks.push(projectTask)
+                    }
+                )
+            );
+        } else {
+            tasks = []
+        }
 
         await project.save();
 
