@@ -2,6 +2,8 @@
 
 ![](https://res.cloudinary.com/doiz6iue3/image/upload/v1583865095/edirect_kqnwdj.svg) ![image](https://res.cloudinary.com/doiz6iue3/image/upload/v1583866739/nodejs_fl0jix.png)
 
+# [Arquitetura](https://drive.google.com/file/d/1osDHl3E9FPtqR4rdQTK0afOEIAPKMg7u/view?usp=sharing)
+
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ### This project was generated with Angular CLI version 9.0.2.
@@ -64,7 +66,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ## Install
 
     $ git clone https://github.com/myvictorlife/api-multi-user-task-manager.git
-    $ cd PROJECT_TITLE
+    $ cd api-multi-user-task-manager
     $ yarn install
 
 ## Running the project
