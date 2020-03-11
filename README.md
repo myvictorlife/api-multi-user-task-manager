@@ -27,6 +27,11 @@ For development, you will only need Node.js and a node global package, Yarn, ins
 6. mongoose - Elegant MongoDB object modeling for Node.js
 7. mongodb - Document database with the scalability and flexibility that you want with the querying and indexing that you need.
 
+## [Insomnia REST Client](https://insomnia.rest/)
+Insomnia is a cross-platform GraphQL and REST client, available for Mac, Windows, and Linux.
+
+      $ import ./insomnia-rest-client to Insomnia Client
+
 ### Node
 - #### Node installation on Windows
 
