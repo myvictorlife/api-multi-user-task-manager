@@ -67,11 +67,12 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
     $ git clone https://github.com/myvictorlife/api-multi-user-task-manager.git
     $ cd api-multi-user-task-manager
-    $ yarn install
+    $ yarn install 
 
 ## Running the project
 
-    $ yarn start
+    $ yarn start src/index.js
+    $ node src/index.js
 
 ## Simple build for production
 
